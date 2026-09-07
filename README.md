@@ -1,17 +1,43 @@
-# jobish_task
+# Jobish Task
 
-A new Flutter project.
+A Flutter application built with clean architecture and modern development practices.
 
-## Getting Started
+## 🚀 Features
 
-This project is a starting point for a Flutter application.
+- Responsive UI across all screen sizes
+- Dark and Light theme support
+- Clean state management architecture
+- Efficient API integration
+- Local data persistence
 
-A few resources to get you started if this is your first Flutter project:
+## 🛠️ Tech Stack & Packages
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+- **State Management:** Bloc / Cubit
+- **API Integration:** Dio
+- **Local Storage:** Shared Preferences
+- **Responsive UI:** flutter_screenutil
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🎨 Theming
+
+The app supports both **Dark Theme** and **Light Theme**, allowing users to switch based on their preference for a better user experience.
+
+## 📱 Responsive Design
+
+UI is built using `flutter_screenutil` to ensure consistent layout and scaling across different device sizes and resolutions.
+
+## 📦 Getting Started
+
+1. Clone the repository
+```bash
+   git clone https://github.com/nibhugit/jobish_task
+```
+
+2. Install dependencies
+```bash
+   flutter pub get
+```
+
+3. Run the app
+```bash
+   flutter run
+```
